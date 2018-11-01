@@ -27,3 +27,5 @@ Avaliaremos a estrutura e organização do projeto. Vamos precisar também que c
 > Diferenciais: 
 > - Rodar o projeto dentro de um container Docker
 > - Usar um pré-processadores ou frameworks CSS
+> - O layout é uma sugestão, caso queira melhora-lo mantendo as funcionalidades
+> - Testes unitários (Jasmine, Mocha, Jest ou outro de sua preferência)
