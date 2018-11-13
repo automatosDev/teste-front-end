@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.leftBar {
+	width: 70%;
+	float: left
+}
+
+.rightBar {
+	width: 30%;
+	float: left
+}
+
+.users-list .contact-list-item {
+    display: inline-block;
+    background: #b3b3b3;
+    padding: 15px;
+    margin: 15px 1%;
+    width: 30%;
+}
+
+.users-list .contact-list-item .user-details {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.users-list .contact-list-item .user-details h3 {
+	display: block;
+	color: #fff;
+	padding: 0 15px;
+}
+
+.users-list .contact-list-item .user-avatar {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.navigatioBar {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navigatioBar .fas.arrow {
+	color: #000;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.create-user {
+	padding: 30px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.create-user input {
+	display: block;
+	margin: 0 auto 15px;
+	padding: 15px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #b2bec3;
+}
+
+.create-user button {
+	display: block;
+	margin: 0 auto 15px;
+	border: 0;
+	background: transparent;
+	color: #00b894;
+	cursor: pointer;
+}
+
+.create-user button:hover {
+
+}
