@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  height: 100%;
+}
+
+.label-create-container {
+  font-size: 300%;
+  font-family: sans-serif;
+}
+
+.create-contact {
+  display: flex;
+  width: 50%;
+  max-width: 50%;
+  justify-content: space-around;
+  background-color: gray;
+  height: -webkit-fill-available;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  width: 50%;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.list-contacts {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-details p {
+  margin: 0;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-list-item {
+  padding: 20px;
+  background: white;
+  display: flex;
+}
