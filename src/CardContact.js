@@ -2,7 +2,7 @@ import React from "react";
 
 const CardContact = ({ contact }) => {
   return (
-    <li key={contact.id} className="contact-list-item">
+    <li key={contact.first_name} className="contact-list-item">
       <div
         className="contact-avatar"
         style={{ backgroundImage: `url(${contact.avatar})` }}
