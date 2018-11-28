@@ -1,4 +1,4 @@
-@import "../../scss/variables_";
+@import "../../scss/variables_.scss";
 
 .App {
     position: fixed;
@@ -11,11 +11,9 @@
     background-size: cover;
     background: no-repeat center center;
 
-
     .row {
         width: 90%;
         height: 90%;
-        overflow: auto;
         margin: auto;
         position: relative;
         top: 5%;
