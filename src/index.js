@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
 import './index.css';
 import {HashRouter as Router, Route, Switch } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -8,7 +7,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import App from './views/main/App';
 
 ReactDOM.render(
-    <Provider>
         <Router>
             <MuiThemeProvider >
                 <Switch>
@@ -18,4 +16,4 @@ ReactDOM.render(
                 </Switch>
             </MuiThemeProvider>
         </Router>
-    </Provider>, document.getElementById('root'));
+    , document.getElementById('root'));

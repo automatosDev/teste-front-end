@@ -66,11 +66,11 @@ class App extends Component {
         }
     };
 
-    tabPageClick(event) {
+    tabPageClick = (event) => {
         this.setState({
             currentPage: Number(event.target.id)
         });
-    }
+    };
 
     onChangeName = (event) => {
         this.setState({ name: event.target.value });
@@ -98,10 +98,10 @@ class App extends Component {
             await this.setState({ open: true });
             this.clearForm();
 
-            postReturn.data.occupation = this.state.occupation
+            postReturn.data.occupation = this.state.occupation;
             postReturn.data.name = postReturn.data.first_name + ' ' + postReturn.data.last_name;
             users_aux = this.state.users;
-            users_aux.push(postReturn.data)
+            users_aux.push(postReturn.data);
             await localStorage.setItem('users', JSON.stringify(users_aux));
 
             await this.setState({
@@ -149,7 +149,7 @@ class App extends Component {
                 <img src={user.avatar} alt={user.first_name} />
                 <GridListTileBar
                     title={user.name}
-                    subtitle={<span>{user.occupation}</span>}/>
+                    subtitle={<span>Profissão: {user.occupation}</span>}/>
             </GridListTile>;
         });
 
