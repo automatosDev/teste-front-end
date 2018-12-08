@@ -1,0 +1,23 @@
+.FormField {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #424242;
+}
+
+.FormField .InputContainer {
+  width: 90%;
+  height: 30px;
+  margin-top: 3px;
+  background-color: #b3b3b3;
+  border-bottom: 2px solid #949494;
+}
+
+.FormField .InputContainer input {
+  color: #313131;
+  outline: none;
+  border: none;
+  width: calc(100% - 50px);
+  height: 20px;
+  -webkit-box-shadow: 0 0 0px 1000px #b3b3b3 inset;
+          box-shadow: 0 0 0px 1000px #b3b3b3 inset;
+}

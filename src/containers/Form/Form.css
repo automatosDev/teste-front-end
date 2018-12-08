@@ -1,0 +1,75 @@
+.Form {
+  margin: 2px;
+  padding: 30px;
+  background-color: #b3b3b3;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.Form .FormTitle {
+  margin-bottom: 25px;
+  color: #5a5a5a;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.Form .PictureUploadButton {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 40px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #555555;
+  color: #dfdfdf;
+  border: 1px solid #555555;
+  border-radius: 3%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Form .PictureUploadButton:hover {
+  background-color: #7e7e7e;
+  border: 1px solid #7e7e7e;
+}
+
+.Form .PictureUploadButton input {
+  position: absolute;
+  left: -999em;
+}
+
+.Form .AddButton {
+  width: 140px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  background-color: #2d7553;
+  color: #dfdfdf;
+  border: 1px solid #2d7553;
+  border-radius: 3%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Form .AddButton:hover {
+  background-color: #5fa082;
+  border: 1px solid #5fa082;
+}

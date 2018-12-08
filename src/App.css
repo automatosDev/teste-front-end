@@ -1,0 +1,28 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container {
+  width: 90%;
+  height: 80%;
+  min-height: 500px;
+  margin: auto;
+  -webkit-box-shadow: 5px 10px 20px #888888;
+          box-shadow: 5px 10px 20px #888888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+  .Container {
+    width: 70%;
+  }
+}
